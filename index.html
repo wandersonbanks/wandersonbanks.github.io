@@ -15,17 +15,17 @@
 		</style>
 		<script type="text/javascript">
 			$(document).ready(function() {
-   $('td').mouseenter(function() {
+   $('img').mouseenter(function() {
        $(this).animate({
            height: '+=10px'
        });
    });
-   $('td').mouseleave(function() {
+   $('img').mouseleave(function() {
        $(this).animate({
            height: '-=10px'
        }); 
    });
-   $('td').click(function() {
+   $('img').click(function() {
        $(this).toggle(1000);
    }); 
 });
