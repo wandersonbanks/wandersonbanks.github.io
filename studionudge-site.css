@@ -1,8 +1,7 @@
-#logo_holder {
-	height: 92px;
-	width: 220px;
-	border: 2px solid black;
-	border-radius: 5px;
-	background-color: #FFFFCC;
-	margin:20px 50px 10px 5px;
+#logo-holder{ 
+	position: absolute; top:0; left: 48px; 
+}
+
+#logo{ 
+	display: block; height: 38px; margin: 33px 0 29px; width: 90px; 
 }
