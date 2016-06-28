@@ -1,0 +1,162 @@
+#logo-holder{ 
+	position: absolute; top:0; left: 48px; 
+}
+
+#logo{ 
+	display: block; height: 38px; margin: 33px 0 29px; width: 90px; 
+}
+
+#logo-holder{ 
+	position: relative; top:inherit; left:inherit; 
+}
+	
+#logo{ 
+	margin: 33px auto 10px; 
+}
+
+.logo-space{ 
+	padding-top: 36px; padding-bottom: 36px; 
+}
+
+.logo-space{ 
+	padding: 108px 0; text-align: center; 
+}
+.logo-first{  
+	padding-top: 108px; padding-bottom: 72px; 
+}
+
+#nav-wrapper{ 
+	text-align:center; 
+}
+	
+#nav{ 
+		padding: 34px 0; display: inline-block; 
+}
+#nav li{ 
+	float: left; padding: 0px 22px; 
+}
+#nav a{ 
+		font-family: "brandon-grotesque",sans-serif;
+		font-style: normal;
+		font-weight: 500; 
+		font-size: 11px;
+		line-height: 13px;
+		letter-spacing: 0.14em; 
+		padding: 2px;
+		text-transform: uppercase;
+}
+
+#project-nav-bottom{ 
+	border-top: 1px solid #e3e3e3; padding: 30px 0; height: 40px; margin-top: 24px; 
+}
+	
+#project-nav-bottom .prev, #project-nav-bottom .next, #project-nav-bottom .grid{ 
+	padding-bottom: 0px; 
+}
+
+.project-nav{
+ height: 90px; 
+}
+		
+.project-nav h1{ 
+	line-height: 88px; margin-bottom: 0px; padding-left: 48px; 
+}
+
+#social-holder{ 
+	position: absolute; top:0; right: 48px; width: 90px; padding: 36px 0; 
+} 
+#social-holder a{ 
+	font-size: 12px; margin: 0 7px; 
+}
+		
+span.social-wrap{ 
+	line-height: 1; 
+}
+
+article, aside, figure, footer, header, hgroup, nav, section{
+	display: block; 
+}
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		font-size: 100%;
+		vertical-align: baseline;
+		background: transparent;
+}
+html{ 
+	overflow-y: scroll; -webkit-font-smoothing:antialiased; 
+}
+
+img, object, embed{ 
+	max-width: 100%; 
+}
+
+p img{ 
+	margin: 0; 
+}
+
+td, td img{ 
+	vertical-align: top; 
+}
+
+.ie7 img{
+	-ms-interpolation-mode: bicubic;
+}
+
+.web-wrapper{
+ border-bottom: 1px solid #e3e3e3; padding: 60px 0; text-align: center; 
+}
+
+.web-wrapper h2{ 
+	color: #212121; font-size: 14px; font-weight: 500; letter-spacing: 0.12em; margin-bottom: 6px; text-transform: uppercase; 
+}
+		
+.border{ 
+	border: 1px solid #e3e3e3; 
+}
+	
+.s-wrapper{ 
+	clear: both; display: block; text-align: center; 
+}
+
+.s-wrapper img{ 
+	margin-bottom: 48px; max-width: 100%; 
+}
+
+.wrapper { margin: 0; padding: 0px 40px; border-bottom: 1px solid #e3e3e3; }
+	
+	#home header { margin: 0 auto; max-width: 100%; }
+	header { height: 100px; }
+	
+	#social-holder { position: absolute; top:0; right: 48px; width: 90px; padding: 36px 0; } 
+		#social-holder a { font-size: 12px; margin: 0 7px; }
+		
+	span.social-wrap { line-height: 1; }
+	
+	#logo-holder { position: absolute; top:0; left: 48px; }
+	#logo { display: block; height: 38px; margin: 33px 0 29px; width: 90px; }
+	
+	#nav-wrapper { text-align:center; }
+	
+	#nav { padding: 34px 0; display: inline-block; }
+	#nav li { float: left; padding: 0px 22px; }
+	#nav a { 
+		font-family: "brandon-grotesque",sans-serif;
+		font-style: normal;
+		font-weight: 500; 
+		font-size: 11px;
+		line-height: 13px;
+		letter-spacing: 0.14em; 
+		padding: 2px;
+		text-transform: uppercase;
+	}
+
+	.work-grid { background: #dbdbdb; height: 238px; }
+		.work-grid a { display: block; padding: 109px 0;}
+		.work-grid h3 { color: #fff; font-size: 26px; margin-bottom: 0; letter-spacing: 0.08em; }
+
+		#home #footer-container { margin-top: 72px; }
+	#footer-container #footer { padding: 24px 0; border-top: 1px solid #e3e3e3; text-transform: uppercase; font-size: 11px; font-weight: 500; letter-spacing: 0.15em; }
