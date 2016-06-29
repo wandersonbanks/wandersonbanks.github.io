@@ -1,6 +1,6 @@
 * {
 
-box­sizing: border­box;
+box-sizing: border-box;
 
 transition: .5s all ease;
 
@@ -22,7 +22,7 @@ background: cornflowerblue;
 
 padding: 5%;
 
-display: inline­block;
+display: inline-block;
 
 width: 40%;
 
@@ -46,6 +46,10 @@ circle{
 	margin-left: center;
 }
 
-input[type=checkbox]:checked{
-	/*implement some simple Js*/	
+input[type=checkbox]:checked ~ .bigBox > div{
+	display: flex;	
 } 
+
+a{
+	color: black;
+}
