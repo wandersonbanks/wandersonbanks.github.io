@@ -9,8 +9,8 @@
 
 	<!-- when the show names button is clicked, the current names in the form should be printed to the console -->
 	<form id="form1" onsubmit="getFormvalue()">  
-		First name: <input type="text" ng-model="fname" value="David"><br>  
-		Last name: <input type="text" ng-model="lname" value="Beckham"><br>  
+		First name: <input type="text" ng-model="fname" value="David">{{fname}}<br>  
+		Last name: <input type="text" ng-model="lname" value="Beckham">{{lname}}<br>  
 	</form>  
 	<div ng-show="showNames">{{fname+" "+lname}}</div>
 	<!-- when the change color button is clicked, the text in this div should turn red -->
