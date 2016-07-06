@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Day 7 Morning</title>
+	<link rel="stylesheet" href="./day8morning.css">
+	<script src="day7morning.js"></script>
+</head>
+<body ng-app ng-init="showNames = false">
+
+	<!-- when the show names button is clicked, the current names in the form should be printed to the console -->
+	<form id="form1" onsubmit="getFormvalue()">  
+		First name: <input type="text" ng-model="fname" value="David"><br>  
+		Last name: <input type="text" ng-model="lname" value="Beckham"><br>  
+	</form>  
+	<div ng-show="showNames">{{fname+" "+lname}}</div>
+	<!-- when the change color button is clicked, the text in this div should turn red -->
+
+	<div ng-init="showRed = false" ng-show="!showRed" class="change-color" id="white">
+		Here's a fun little div.
+	</div>
+
+	<div ng-show="showRed" class="change-color" id="red">
+		Here's a fun little div.
+	</div>
+
+	<button ng-click="showNames = !showNames" id="name-btn">Click to show names</button>
+	<button ng-click="showRed = !showRed" id="color-btn">Click to change color</button>
+	<button ng-init="showImage = false" ng-click="showImage = !showImage" id="image-btn">Click to show image</button>
+
+	<!-- when the toggle images button is clicked, a transparent black background should appear with a dog picture centered on top of it. when the background is clicked again, the image and background should go away. -->
+	<div ng-show="showImage" class="lightbox" id="lightbox">
+		<div ng-click="showImage = !showImage" id="screen" class="lightbox-bg"></div>
+		<div id="image" class="lightbox-contents">
+			<img src="http://www.lovethispic.com/uploaded_images/53451-Cute-Dog.jpg" alt="">
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+
+</body>
+</html>
