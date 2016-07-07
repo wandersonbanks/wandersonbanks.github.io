@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Day 8 Afternoon</title>
+	<link rel="stylesheet" href="./day9morning.css">
+</head>
+<body ng-app="groceryApp">
+	<div ng-controller="GroceryCtrl">
+		<form id="form1" onsubmit="getFormvalue()">  
+			Item name: <input id="item" type="text" ng-model="itemName" placeholder="Enter item name"><br>  
+			Quantity: <input id="quant" type="text" ng-model="quantity" placeholder="Enter number of items"><br>  
+		</form> 
+		<div class="myButtons">
+			<button ng-click="addGroceryItem()" id="add-btn">Click to add item(s)</button>
+			<button ng-click="emptyList()" id="empty-btn">Empty cart</button>
+		</div>
+		<form id="form2" onsubmit="getFormvalue()">  
+			<input id="search" type="text" ng-model="itemSearch" placeholder="Enter item to search"><br>    
+		</form>
+		<button ng-click="searchBtn" id="search-btn">Search</button>
+
+		<ol>
+        	<li ng-repeat="item in groceryList | filter:itemSearch | orderBy : 'name' track by $index">
+        		<div ng-hide="item.isEditing">
+          			<span  ng-dblclick="item.isEditing = true">{{ item.name }} : {{ item.qty }}
+          			<span><a href="#"><div ng-click="addOne($index)" class="plus">+</div></a></span>
+        			<span><a href="#"><div ng-click="minusOne($index)" class="minus">-</div></a></span>
+        			<span><a href="#"><div ng-click="item.isEditing = true" class="edit">Edit</div></a></span>
+        			<span><a href="#"><div ng-click="delete($index)" class="delete">Del</div></a></span>
+        		</div>
+        		<div ng-show="item.isEditing">
+            		<input ng-model="item.name">
+            		<span><a href="#"><div class="done" ng-click="item.isEditing = false">Done</div></a></span>
+          		</div>
+        	</li>
+      	</ol>
+
+		<script src="angular.js"></script>
+		<script src="day9morning.js"></script>
+	</div>
+</body>
+</html>

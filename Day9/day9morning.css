@@ -1,0 +1,88 @@
+form #item{
+	margin-left: 100px;
+	width: 300px;
+}
+
+form #quant{
+	margin-left: 112px;
+	width: 300px;
+}
+
+li .plus, li .minus, li .delete, li .edit, li .done{
+	display: inline-block;
+	width: 28px;
+	height: 20px;
+	background-color: #4CAF50;
+	margin: 2px;
+	text-align: center;
+	transition: all .5s;
+	padding: 5px 10px;
+}
+
+p{
+	font-size: 18px;
+}
+
+li a{
+	text-decoration: none;
+}
+
+li{
+	margin-top: 45px;
+}
+
+#search, #search-btn, #form2{
+	display: inline-block;
+	float: left;
+}
+
+#search-btn{
+	margin-left: 5px;
+}
+
+form input{
+	margin: 4px;
+	height: 20px;
+}
+
+button,a div{
+	background-color: #008CBA;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	float: left.
+	font-size:16px;
+	border-radius: 12px;
+	transition: all .5s;
+	margin: 3px;
+}
+
+button{
+	padding: 9px 18px;
+}
+
+button:active{
+	transform: translate(0%,-5px);
+	box-shadow: 10px 10px 5px #888888
+}
+
+li .plus:active{
+	transform: translate(0%,-5px);
+	box-shadow: 10px 10px 5px #888888
+}
+
+li .minus:active{
+	transform: translate(0%,-5px);
+	box-shadow: 10px 10px 5px #888888
+}
+
+li .delete:active{
+	transform: translate(0%,-5px);
+	box-shadow: 10px 10px 5px #888888
+}
+
+.myButtons{
+	display: block;
+}
