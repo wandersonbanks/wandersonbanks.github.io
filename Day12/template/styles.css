@@ -1,0 +1,147 @@
+body{
+	background-image: url("beaut.jpg");
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.red_bar
+{
+/* 	border:2px solid black;
+ */	position:fixed;
+	left:0;
+	right:0;
+	height:70px;
+	background-color:#F988C8;
+}
+
+.bar_logo
+{
+	color:white;
+}
+
+.container
+{
+	padding-top:70px;
+}
+
+.validation{
+	height: 30px;
+	padding-top: 3px;
+	padding-left: 3px;
+	color: red;
+	padding-left: 60px;
+}
+
+.form-control{
+	margin-top: 40px;
+}
+
+.dropDown, select{
+	margin-left: 0px;
+	height: 30px;
+	width: 200px;
+	display: inline-block;
+	padding-left: 60px;
+}
+
+.button1, .button2{
+	height: 44px;
+	background-color: #4BB249; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 5px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.button2{
+	width: 80px;
+	height: 40px;
+	margin-left: 798px;
+}
+
+.button1{
+	width: 80px;
+	height: 40px;
+	margin-left: 803px;
+}
+
+.refreshBtn, .validateBtn{
+	height: 45px;
+	width: 85px;
+	display: inline-block;
+}
+
+ul li{
+	list-style: none;
+	width: 40%;
+	margin-left:0px; 
+	transition: all .3s;
+}
+
+.allProps{
+	margin-left: 20px;
+}
+
+.errorMsg{
+	height: 40px;
+	padding-top: 3px;
+	padding-left: 3px;
+	color: red;
+	padding-left: 80px;
+}
+
+/*li:hover{
+	transform: translate(1,1);
+}
+*/
+h1{
+	text-align: left;
+	color: #827AE0;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+    margin-bottom: 20px;
+}
+
+h3, h6, p{
+	color: white;
+	font-weight: bold;
+}
+
+.formInput{
+	padding-left: 60px;
+}
+
+.props{
+	color: white;
+	margin-top: 50px;
+	padding-left: 47px;
+	font-family: 'Bigshot One';
+	font-size: 34px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.3999996185303px;
+	font-weight: bold;
+}
+
+.propsUl{
+	margin-left: 10px;
+}

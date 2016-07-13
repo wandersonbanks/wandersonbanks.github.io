@@ -15,14 +15,12 @@ app.controller('MainCtrl', function($scope, $http) {
 
 	$scope.search = function(title)
 	{
-		movieTitle = title;
-		console.log(movieTitle);
 
 		$http({
 			url: "http://www.omdbapi.com/?",
 			method: "GET",
 			params: {
-			s: movieTitle
+			s: title
 			}
 		}).then(function(response) {
 			$scope.moviesArray = response.data.Search;
@@ -41,14 +39,16 @@ app.controller('MoviesCtrl', function($scope, $http, $routeParams) {
 	}).then(function(response) {
 		//console.log(response);
 		$scope.movie = response.data;
+		movieTitle = $scope.movie.Title;
 		$http({
-		url: "http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC",
+		url: "http://api.giphy.com/v1/gifs/search?",
 		method: "GET",
 		params: {
+			api_key: "dc6zaTOxFJmzC",
 			q: movieTitle
 		}
 		}).then(function(response) {
-		console.log(response);
+		console.log(movieTitle);
 		$scope.gifs = response.data.data;
 	})
 })
