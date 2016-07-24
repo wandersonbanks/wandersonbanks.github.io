@@ -1,0 +1,34 @@
+.lightbox-bg {
+	/* this should cover the entire screen with a transparent black background */
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	background: rgba(0,0,0,.5);
+
+}
+
+.lightbox-contents {
+	/* this should center the image on the screen on top of the background*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.lightbox {
+	/* this should not be on the screen to start*/
+	display: none;
+
+}
+
+.isVisible {
+	/* this does exactly what it sounds like it does */
+	display: inline-block;
+}
+
+.myDiv{
+	color: red;
+}

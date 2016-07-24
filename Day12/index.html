@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="template/styles.css">
+  </head>
+  <body ng-app="iXChommiesApp" class="color">
+    
+	
+		<div class="red_bar">
+				<a href="/"><div class="bar_logo col-md-2 col-md-offset-1"><h1>Chommies</h1></div></a>
+				<a href="/#/props.html"><div class="me_logo col-md-2 col-md-offset-7"><h1>MyProps</h1></div></a>
+		</div>
+		
+		
+		<div class="container-fluid" ng-view> </div>
+
+		<script src="template/angular.js"></script><!--you might need CDN here-->
+		<script src="template/angular-route.js"></script><!--you might need CDN here-->
+		<script src="template/script.js"></script>
+  </body>
+</html>

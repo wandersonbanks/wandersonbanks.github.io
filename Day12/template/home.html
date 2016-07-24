@@ -1,0 +1,31 @@
+
+<div>
+	<ul class="container ">
+		<div class=row>
+			<div class="formInput">
+				<input ng-model="newPropsValue"  type="text" class="form-control"/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="dropDown"><select class="form-control" ng-model="selectedBru" ng-options="bru.id as bru.first_name for bru in brus"></select></div>
+			<div class="refreshBtn">
+				<a href="#"><div ng-click="" class="button1">Refresh</div></a>
+			</div>
+			<div class="validateBtn">
+				<a href="#"><div ng-click="sendProps()"class="button2">Validate</div></a>
+			</div>
+		</div>
+		<div class="row">
+			<ul class="allProps">
+				<li ng-repeat="prop in props track by $index">
+						<h3>{{prop.receiver.first_name}}: {{prop.text}}</h3>
+						<h6>Posted: {{datesArray[$index]}}</h6>
+						<h6>Positivity: {{prop.positivity_score}}</h6>
+						<h6>{{message}}</h6>
+						<!-- <p>{{prop.text}}</p> -->
+				<li>
+			</ul>
+		</div>
+	</ul>
+</div>
+

@@ -1,0 +1,170 @@
+.wrapper{
+	background-color: orange;
+}
+
+#bigImage{
+	width: 300px;
+	height: 611px;
+	margin: 0px auto;
+	float: left;
+	display: inline-block;
+}
+
+.container1{
+	height: 640px;
+
+}
+
+#first-section{
+	height: 640px;
+	width: 800px;
+	margin: 0px auto;
+}
+
+#sideText{
+	padding-top: 80px;
+	padding-left: 30px;
+	width: 300px;
+	height: 611px;
+	margin: 0px auto;
+	display: inline-block;
+}
+
+#text{
+	width: 300px;
+	height: 611px;
+	margin: auto;
+	display: inline-block;
+	padding-left: 50px;
+}
+
+#bigImage > img{
+	width: 300px;
+	height: 611px; 
+}
+
+h1{
+	color: white;
+	padding-left: 48px;
+}
+
+h3{
+	color: white;
+	padding-left: 48px;
+}
+
+
+#buttons{
+	width: 200px;
+	height: 150;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: auto;
+	text-align: center;
+}
+
+input{
+	width: 200px;
+	height: 40px;
+	margin-top: 60px;
+	margin-left: 10px;
+	background-color: orange;
+	color: white;
+	text-align: center;
+	margin-bottom: 4px;
+	margin-right: 40px;
+	font-size: 20px;
+}
+
+#inner{
+	position: top;
+}
+
+ul{
+	width: 800px;
+	height: 545px;
+	margin: 0px auto;
+}
+
+#smallImage{
+	width: 242.5px;
+	height: 537px;
+	display: inline-block;
+	float: left;
+}
+
+img{
+	width: 220px;
+	height: 446px; 
+	display: inline-block;
+}
+
+li{
+	width: 242.5px;
+	height: 537px;
+	display: inline-block;
+	float: left;
+	list-style: none;
+	display: inline-block;
+}
+
+p{
+	text-align: center;
+	color: white;
+	padding: 0px;
+}
+
+.bottom{
+	text-align: center;
+}
+
+#bottom{
+	padding-top: 13px;
+	margin: auto;
+	text-align: center;
+	width: 220px;
+	height: 45px;
+	font-size: 22px;
+	color: #44BCC9;
+	background-color: white;
+	cursor: pointer;
+}
+
+.divider{
+  height: 1px;
+  background: white;
+  margin: 40px auto;
+  width: 400px;
+ }
+
+ .textCenter {
+  text-align: center;
+}
+
+footer p {
+  color: white;
+  font-size: 14px;
+}
+
+a{
+	color: white;
+}
+
+div > img{
+	width: 20px;
+	height: 20px;
+	margin: auto
+}
+
+#arrow{
+	width: 80px;
+	height: 40px;
+	margin: auto;
+	text-align: center;
+	cursor: pointer;
+
+}
+
+footer{
+	background-color: orange;
+}

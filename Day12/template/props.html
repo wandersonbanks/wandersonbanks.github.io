@@ -1,0 +1,10 @@
+<div class="container">
+	<h2 class="props">This is a list of all props sent to you</h2>
+	<ul class="propsUl">
+		<li ng-repeat="prop in myProps track by $index">
+			<h3>{{prop.text}}</h3>
+			<h6>Posted: {{datesArray[$index]}}</h6>
+			<h6>Positivity: {{prop.positivity_score}}</h6>
+		<li>
+	</ul>
+</div>

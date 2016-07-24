@@ -1,0 +1,14 @@
+<div class="row movieSearch">
+	<h3>Movie Search</h3>
+</div>
+<div class="row movieSearch">
+	<form id="form2">  
+		<input id="search" type="text" ng-model="movieSearch" placeholder="Enter movie to search"><br>    
+	</form>
+	<div class="btn" ng-click="search(movieSearch)">Search</div>
+</div>
+<div class="row movieResults">
+	<ol>
+		<li ng-repeat="movie in moviesArray"><a href="#/movie/{{movie.imdbID}}">{{movie.Title}}</a></li>
+	</ol>
+</div>

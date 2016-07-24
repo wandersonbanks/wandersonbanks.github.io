@@ -1,0 +1,55 @@
+* {
+
+box-sizing: border-box;
+
+transition: .5s all ease;
+
+}
+
+.bigBox {
+
+background: none;
+
+width: 100%;
+
+}
+
+.bigBox > div {
+
+margin: 2%;
+
+background: cornflowerblue;
+
+padding: 5%;
+
+display: inline-block;
+
+width: 40%;
+
+border-style: solid;
+
+border-color: #ff0000
+
+}
+
+.bigBox :nth-child(3)
+{
+	background: #f000ff;
+}
+
+.bigBox :nth-child(4)
+{
+	background: #0000f0;
+}
+
+circle{
+	margin-left: center;
+}
+
+input[type=checkbox]:checked ~ .bigBox > div{
+	display: flex;	
+} 
+
+a{
+	color: black;
+}

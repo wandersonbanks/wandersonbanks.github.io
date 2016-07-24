@@ -1,0 +1,55 @@
+form input, form{
+	display: block;
+	float: left;
+	height: 44px;
+}
+
+form input{
+	margin: 3px;
+	width: 350px;
+}
+
+button{
+	display: block;
+	float: left;
+	margin: 3px;
+}
+
+.btn {
+    background-color: #008CBA; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.movieSearch, .movieResults{
+	margin: 10px;
+}
+
+ol li{
+	margin: 5px;
+}
+
+.poster{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 200px;
+	width: 665.5px;
+	display: inline-block;
+}
+
+div img{
+	height: 200px;
+	width: 100%;
+}
+
+h2{
+	font-weight: bold;
+}
